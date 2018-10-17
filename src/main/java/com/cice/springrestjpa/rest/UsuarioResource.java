@@ -19,6 +19,9 @@ public class UsuarioResource {
     public String LoginUsuario(@RequestParam (name = "user") String user, @RequestParam (name = "pass")String pass){
 
         return usuarioService.login(user,pass);
+
+
+
     }
 
 }
