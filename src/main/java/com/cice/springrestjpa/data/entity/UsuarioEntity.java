@@ -26,5 +26,14 @@ public class UsuarioEntity {
     @Column(name="pass")
     private String pass;
 
+    @Column
+    private String email;
+
+    @Column
+    private int telefono;
+
+    @Column
+    private String ciudad;
+
 
 }

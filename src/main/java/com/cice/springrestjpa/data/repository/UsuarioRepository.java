@@ -9,5 +9,9 @@ public interface UsuarioRepository extends JpaRepository <UsuarioEntity, Long>{
 
     UsuarioEntity findByUserAndPass(String user,String pass);
 
+    UsuarioEntity crearUsuario(String user, String pass, String email, int telefono, String ciudad);
+
+    UsuarioEntity buscarUsuario(String user);
+
 
 }
